@@ -34,7 +34,7 @@ def money(label):
 
 
 st.title("Калькулятор закята")
-st.caption("Учебная версия v0. Методику проверяет специалист.")
+st.caption("Версия v0.1, обновлено через git push.")
 
 st.subheader("Методика")
 basis_label = st.radio("Нисаб считается по", ["золоту (85 г)", "серебру (595 г)"], horizontal=True)
